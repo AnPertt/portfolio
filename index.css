@@ -64,7 +64,7 @@ nav ul {
 /* Two columns: one for the box, one for the article */
 .left-column {
   flex: 1;
-  background-color: #aee6e5; /* Adjust background color for the box */
+  background-color: #7bb2c9; /* Adjust background color for the box */
   padding: 20px;
 }
 
