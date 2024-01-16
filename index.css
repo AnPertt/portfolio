@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0; /* Remove default margin */
 }
 
 /*HEADER*/
@@ -7,6 +8,13 @@ header {
   background-color: #43c5c3;
   padding: 0;
   text-align: center;
+  margin: 0; /* Remove default margin */
+}
+
+header img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /*NAVIGATION BAR*/
