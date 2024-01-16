@@ -5,46 +5,49 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0; /* Remove default margin */
 }
 
 /*HEADER*/
 header {
   background-color: #43c5c3;
-  padding: 0px;
+  padding: 0;
   text-align: center;
+  margin: 0; /* Remove default margin */
 }
 
+header img {
+  width: 100%; /* Make the image cover the entire header */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline display */
+}
 
 /*NAVIGATION BAR*/
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#165e79;
+  background-color: #165e79;
 }
 
 li {
   float: left;
 }
 
-
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 0px 50px;
+  padding: 0 50px;
   text-decoration: none;
   font-size: 24px;
   font-family: papyrus;
 }
 
-
 li a:hover {
   background-color: #003;
 }
-
 
 /* Container for flexboxes */
 section {
@@ -61,7 +64,6 @@ nav {
   padding: 10px;
 }
 
-
 /* Style the content */
 article {
   -webkit-flex: 3;
@@ -70,10 +72,9 @@ article {
   background-color: #ebf9f9;
   color: #165e79;
   padding: 20px;
- 
 }
 
-article p{
+article p {
   color: black;
 }
 
@@ -105,7 +106,8 @@ article p{
 }
 
 /* Clear floats */
-.container::after, .row::after {
+.container::after,
+.row::after {
   content: "";
   clear: both;
   display: table;
@@ -115,15 +117,12 @@ article p{
   color: grey;
 }
 
-
-
 /* Style the footer */
 footer {
   background-color: #165e79;
   padding: 30px;
   text-align: center;
   color: white;
-  
 }
 
 /* Responsive layout - */
@@ -132,3 +131,4 @@ footer {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
+}
