@@ -64,11 +64,18 @@ nav {
   padding: 10px;
 }
 
+/* Two columns on both sides of the article/website text */
+.left-column,
+.right-column {
+  flex: 1;
+  padding: 0 16px;
+}
+
 /* Style the content */
 article {
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
   background-color: #ebf9f9;
   color: #165e79;
   padding: 20px;
