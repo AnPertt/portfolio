@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<link rel="stylesheet" href="Index.css">
+  
+ <title>3Fins Diving</title>
+  
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+  
+<body>
+ <header>
+  <video autoplay muted loop id="myVideo">
+  <source src="headervideo.mp4" type="video/mp4">
+  </video>
+ </header>
+
+<ul>
+  <li><b><a href="index.html" title="Home Page">Home</a></b></li>
+  <li><b><a href="ourTeam.html" title="Our Team">Our Team</a></b></li>
+  <li><b><a href="services.html" title="Services">Services</a></b></li>
+  <li><b><a href="pastEvent.html" title="Past Events">Past Events</a></b></li>
+  <li><b><a href="gallery.html" title="Gallery">Gallery</a></b></li>
+  <li><b><a href="bookus.html" title="Book us for event" >Book us!</a></b></li> 
+</ul>
+
+ <div>
+  <section>
+  <nav> 
+  </nav>
+  
+  <article>
+    <h2>Welcome!</h2>
+  
+    <p>3Fins Diving offers breathtaking moments underwater! We specialize in underwater entertainment and speciality diving. Our motto is that everything can contain magic! </p>
+    <p>3Fins diving is a team of underwater performers and diving specialist, logistic and light/sounds specialists who together create performances for all kinds of events.
+  </article>
+  </section>
+ </div>
+  
+<footer>
+  <p>Anni Perttula, 2022</p>
+    <a href="https://validator.w3.org/check?uri=referer">
+      <img style="border:none;height:31px;width:31px;text-decoration:none;"
+       src="htmlLogo.png"
+       alt="Valid HTML"/></a>
+
+      <a href="https://jigsaw.w3.org/css-validator/check/referer">
+       <img style="border:none;width:88px;height:31px;text-decoration:none;"
+        src="cssLogo.png"
+        alt="Valid CSS" /></a>
+</footer>
+  
+</body>
+</html>
