@@ -1,5 +1,4 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
+@@ -3,18 +3,18 @@ body {
   margin: 0; /* Remove default margin */
 }
 
@@ -13,42 +12,29 @@ video {
 /*HEADER*/
 header {
   background-color: #43c5c3;
+  padding: 0;
   padding: 20px;
   text-align: center;
+  margin: 0; /* Remove default margin */
+}
+
+header img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /*NAVIGATION BAR*/
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #165e79;
-}
-
-li {
-  float: left;
-}
-
-li a:active {
-  background-color: #007;
-}
-
-li a {
+@@ -38,7 +38,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
+  padding: 0px 50px;
   padding: 5px 50px;
   text-decoration: none;
   font-size: 24px;
   font-family: papyrus;
-}
-
-li a:hover {
-  background-color: #003;
-}
-
-/* Container for flexboxes */
+@@ -52,6 +52,8 @@ li a:hover {
 section {
   display: -webkit-flex;
   display: flex;
@@ -57,35 +43,25 @@ section {
 }
 
 /* Style the navigation menu */
-nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  background: #aee6e5;
-  padding: 20px;
+@@ -69,16 +71,9 @@ nav ul {
+  padding: 0;
 }
 
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
+/* Two columns: one for the box, one for the article */
+.left-column {
+  flex: 1;
+  background-color: #7bb2c9; /* Adjust background color for the box */
+  padding: 20px;
 }
 
 /* Style the content */
 article {
+  flex: 2; /* Adjust the flex value for the article */
   flex: 3;
   background-color: #ebf9f9;
   color: #165e79;
   padding: 20px;
-}
-
-article p {
-  color: black;
-}
-
-/* Style the footer */
-footer {
-  background-color: #165e79;
+@@ -94,6 +89,9 @@ footer {
   padding: 20px;
   text-align: left;
   color: white;
