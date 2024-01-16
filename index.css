@@ -2,32 +2,29 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 /*HEADER*/
 header {
   background-color: #43c5c3;
-  padding: 0px;
+  padding: 0;
   text-align: center;
 }
 
 /*NAVIGATION BAR*/
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#165e79;
+  background-color: #165e79;
 }
 
 li {
   float: left;
 }
-  
+
 li a:active {
   background-color: #007;
 }
-
 
 li a {
   display: block;
@@ -39,11 +36,9 @@ li a {
   font-family: papyrus;
 }
 
-
 li a:hover {
   background-color: #003;
 }
-
 
 /* Container for flexboxes */
 section {
@@ -66,16 +61,22 @@ nav ul {
   padding: 0;
 }
 
+/* Two columns: one for the box, one for the article */
+.left-column {
+  flex: 1;
+  background-color: #aee6e5; /* Adjust background color for the box */
+  padding: 20px;
+}
+
 /* Style the content */
 article {
-  flex: 3;
+  flex: 2; /* Adjust the flex value for the article */
   background-color: #ebf9f9;
   color: #165e79;
   padding: 20px;
- 
 }
 
-article p{
+article p {
   color: black;
 }
 
@@ -92,3 +93,4 @@ footer {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
+}
