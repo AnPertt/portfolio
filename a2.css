@@ -25,7 +25,7 @@ header img {
 }
 
 .navbar a {
-  float: right;
+  float: left;
   font-size: 16px;
   color: #ecf0f1; /* Light gray text color */
   text-align: center;
@@ -35,7 +35,7 @@ header img {
 
 /* Dropdown styles */
 .dropdown {
-  float: right;
+  float: left;
   overflow: hidden;
 }
 
@@ -69,7 +69,7 @@ header img {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: right;
+  text-align: left;
 }
 
 .dropdown-content a:hover {
