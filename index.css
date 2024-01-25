@@ -4,12 +4,10 @@ body {
   padding: 0;
 }
 
-
 /*HEADER*/
 header {
   background-color: #43c5c3;
-  padding: 0px;
-   margin: 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -20,7 +18,6 @@ header img {
 }
 
 /*NAVIGATION BAR*/
-
 /* Navigation bar styles */
 .navbar {
   overflow: hidden;
@@ -91,37 +88,15 @@ header img {
 }
 
 
-/* Container for flexboxes */
-section {
-  display: -webkit-flex;
-  display: flex;
-}
-
-/* Style the navigation menu */
-nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  background: #aee6e5;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
 /* Style the content */
 article {
-  flex: 3;
+  flex: 2; /* Adjust the flex value for the article */
   background-color: #ebf9f9;
   color: #165e79;
   padding: 20px;
- 
 }
 
-article p{
+article p {
   color: black;
 }
 
@@ -138,3 +113,4 @@ footer {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
+}
