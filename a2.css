@@ -1,23 +1,23 @@
-/* Resetting default margin and padding for the body */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+   margin: 0;
   padding: 0;
 }
 
-/* Header styles */
+/*HEADER*/
 header {
-  background-color: #2c3e50; /* Trendy blue-gray color */
+  background-color: #43c5c3;
   padding: 0;
   text-align: center;
 }
 
 header img {
-  width: 100%;
-  height: auto;
-  display: block;
+  width: 100%; 
+  height: auto; 
+  display: block; 
 }
 
+/*NAVIGATION BAR*/
 /* Navigation bar styles */
 .navbar {
   overflow: hidden;
@@ -87,36 +87,30 @@ header img {
   padding: 20px;
 }
 
-/* Article styles */
+
+/* Style the content */
 article {
-  flex: 2;
-  background-color: #ecf0f1; /* Light gray background color */
-  color: #2c3e50; /* Blue-gray text color */
+  flex: 2; /* Adjust the flex value for the article */
+  background-color: #ebf9f9;
+  color: #165e79;
   padding: 20px;
 }
 
 article p {
-  color: #34495e; /* Dark blue-gray text color */
+  color: black;
 }
 
-/* Footer styles */
+/* Style the footer */
 footer {
-  background-color: #2c3e50; /* Trendy blue-gray color */
+  background-color: #165e79;
   padding: 20px;
   text-align: center;
-  color: #ecf0f1; /* Light gray text color */
+  color: white;
 }
 
-/* Media query for small screens */
 @media (max-width: 600px) {
   section {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
-}
-
-/* Responsive image style */
-.responsive {
-  width: 100%;
-  height: auto;
 }
