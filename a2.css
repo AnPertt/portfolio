@@ -107,6 +107,11 @@ article p {
   color: black;
 }
 
+img {
+  max-width: 60%;
+  height: auto;
+}
+
 /* Style the footer */
 footer {
   background-color: #165e79;
