@@ -80,13 +80,16 @@ header img {
   display: block;
 }
 
+/* ... (existing styles) ... */
+
 /* Two columns style */
 .left-column {
   flex: 1;
   background-color: #3498db; /* Trendy blue color */
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
-
 
 /* Style the content */
 article {
@@ -94,7 +97,11 @@ article {
   background-color: #ebf9f9;
   color: #165e79;
   padding: 20px;
+  margin-left: 20px; /* Add left margin to create blue space on the left */
 }
+
+/* ... (existing styles) ... */
+
 
 article p {
   color: black;
