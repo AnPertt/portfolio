@@ -4,6 +4,10 @@ body {
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /*HEADER*/
 header {
   background-color: #43c5c3;
@@ -85,6 +89,14 @@ section {
   display: flex;
 }
 
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #5a7794;
+  padding: 20px;
+}
+
 /* Two columns style */
 .left-column {
   flex: 1;
@@ -95,7 +107,9 @@ section {
 
 /* Style the content */
 article {
-  flex: 2; /* Adjust the flex value for the article */
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
   background-color: #ebf9f9;
   color: #165e79;
   padding: 20px;
