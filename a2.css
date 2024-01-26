@@ -105,7 +105,6 @@ nav {
 }
 
 
-/* Style the content */
 article {
   -webkit-flex: 3;
   -ms-flex: 3;
@@ -113,6 +112,8 @@ article {
   background-color: #ebf9f9;
   color: #165e79;
   padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 article p {
