@@ -79,16 +79,19 @@ header img {
   display: block;
 }
 
-/* ... (existing styles) ... */
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
 
 /* Two columns style */
 .left-column {
   flex: 1;
   background-color: #3498db; /* Trendy blue color */
   padding: 20px;
-  display: flex;
-  flex-direction: column;
 }
+
 
 /* Style the content */
 article {
@@ -96,20 +99,10 @@ article {
   background-color: #ebf9f9;
   color: #165e79;
   padding: 20px;
-  margin-left: 50px; /* Add left margin to create blue space on the left */
 }
-
-/* ... (existing styles) ... */
-
 
 article p {
   color: black;
-  margin: 20px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 /* Style the footer */
