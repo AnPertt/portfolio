@@ -18,7 +18,7 @@ header img {
 }
 
 /*NAVIGATION BAR*/
-/* Navigation bar styles */
+
 .navbar {
   overflow: hidden;
   background-color: #34495e; /* Trendy dark blue color */
@@ -108,7 +108,7 @@ article p {
 }
 
 img {
-  max-width: 60%;
+  max-width: 40%;
   height: auto;
 }
 
