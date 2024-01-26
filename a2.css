@@ -108,8 +108,10 @@ article p {
 }
 
 img {
-  max-width: 40%;
-  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* Style the footer */
