@@ -18,7 +18,6 @@ header img {
 }
 
 /*NAVIGATION BAR*/
-/* Navigation bar styles */
 .navbar {
   overflow: hidden;
   background-color: #34495e; /* Trendy dark blue color */
@@ -78,6 +77,12 @@ header img {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
 }
 
 /* Two columns style */
