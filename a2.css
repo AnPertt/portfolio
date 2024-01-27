@@ -87,6 +87,7 @@ header img {
 section {
   display: -webkit-flex;
   display: flex;
+  margin: 20px;
 }
 
 nav {
@@ -118,7 +119,6 @@ article {
 
 article p {
   color: black;
-  margin: 20px;
 }
 
 /* Style the footer */
