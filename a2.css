@@ -87,7 +87,6 @@ header img {
 section {
   display: -webkit-flex;
   display: flex;
-  margin: 20px;
 }
 
 nav {
